@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advanced English Grammar Quiz</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Advanced English Grammar Quiz</h1>
+    <p>Test your knowledge of verbs, parallel structure, and grammar accuracy!</p>
+  </header>
+  
+  <main>
+    <form id="quizForm">
+
+      <!-- Part 1 -->
+      <section class="quiz-section">
+        <h2>Part 1: Verb Forms (50 points)</h2>
+        <p>Fill in the blanks with the correct <strong>past tense</strong> and <strong>past participle</strong> form of each verb.</p>
+      </section>
+
+      <!-- Part 2 -->
+      <section class="quiz-section">
+        <h2>Part 2: Parallel or Not Parallel (25 points)</h2>
+        <p>Type <strong>P</strong> for parallel and <strong>NP</strong> for not parallel.</p>
+      </section>
+
+      <!-- Part 3 -->
+      <section class="quiz-section">
+        <h2>Part 3: Grammar Mastery (25 points)</h2>
+        <p>Select the correct verb form to complete each sentence.</p>
+      </section>
+      
+      <div class="actions">
+        <button id="submitBtn" class="btn">Submit Quiz</button>
+        <button type="button" id="resetBtn" class="btn reset">Reset</button>
+        <div id="scoreDisplay" class="score" style="display:none;">
+          <strong>Score:</strong> <span id="scoreText">0 / 100</span>
+        </div>
+      </div>
+
+    </form>
+  </main>
+</body>
+<script src="script.js"></script>
+</html>

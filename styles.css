@@ -1,0 +1,133 @@
+body {
+  font-family: 'Inter', sans-serif;
+  background: #f5f7fa;
+  margin: 0;
+  color: #333;
+}
+
+header {
+  background: #4353ff;
+  color: #fff;
+  padding: 2rem;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+main {
+  max-width: 850px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.quiz-section {
+  background: #fff;
+  padding: 1.5rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+.quiz-section h2 {
+  margin-top: 0;
+  color: #222;
+}
+
+.q {
+  margin-bottom: 1.2rem;
+  padding: 1rem;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.q:last-child {
+  border-bottom: none;
+}
+
+.badge {
+  background: #4353ff;
+  color: #fff;
+  padding: 0.3rem 0.6rem;
+  border-radius: 999px;
+  font-weight: bold;
+  font-size: 0.9rem;
+  margin-right: 0.5rem;
+}
+
+input[type="text"], select {
+  width: calc(50% - 10px);
+  padding: 0.4rem;
+  font-size: 1rem;
+  margin-right: 5px;
+  margin-top: 0.3rem;
+  border: 1px solid #d1d5db;
+  border-radius: 5px;
+}
+
+select {
+  width: 100%;
+}
+
+input::placeholder {
+  color: #aaa;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.btn {
+  padding: 0.8rem 1.5rem;
+  background: #4353ff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.btn:hover {
+  background: #2330d1;
+}
+
+.btn.reset {
+  background: #e63946;
+}
+
+.score {
+  padding: 0.8rem;
+  background: #dcdcfd;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  margin-left: 15px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  input[type="text"] {
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+}
+
+.mcq-group {
+  margin-top: 0.5rem;
+  margin-left: 1.5rem;
+}
+
+.mcq-option {
+  display: block;
+  margin-bottom: 0.4rem;
+  cursor: pointer;
+}
+
+.mcq-option input {
+  margin-right: 8px;
+}
